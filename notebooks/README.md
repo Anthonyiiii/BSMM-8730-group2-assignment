@@ -70,12 +70,12 @@ and cleaned datasets are stored in `data/processed/`,
 with source reports maintained in the relevant data branches.
 
 ## Next Steps
-
-- RioCan financial data extraction and cleaning.
-- Choice Properties financial data extraction and cleaning.
-- Financial and macroeconomic data integration.
-- Relational database design.
-- MySQL implementation and SQL analysis.
+- Data integration across SmartCentres, RioCan, and Choice Properties.
+- Financial metric harmonization across companies.
+- Integration of financial, market, and macroeconomic datasets.
+- Relational database design and ER diagram development.
+- MySQL database implementation and data import.
+- SQL-based financial and investment analysis.
 
 
 ## Peer Financial Data Cleaning
