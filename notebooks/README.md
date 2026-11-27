@@ -76,3 +76,63 @@ with source reports maintained in the relevant data branches.
 - Financial and macroeconomic data integration.
 - Relational database design.
 - MySQL implementation and SQL analysis.
+
+
+## Peer Financial Data Cleaning
+
+### Notebook
+
+`peer_financial_data_cleaning.ipynb`
+
+### Objective
+
+Extract, clean, standardize, and validate financial and operating data for RioCan REIT and Choice Properties REIT to support comparative investment analysis with SmartCentres REIT.
+
+### Data Sources
+
+- RioCan annual reports (2023–2025)
+- RioCan quarterly reports (2026 Q1–Q3)
+- Choice Properties annual reports (2023–2025)
+- Choice Properties quarterly reports (2026 Q1–Q3)
+
+### Main Procedures
+
+1. Locate and inventory source PDF reports.
+2. Assess PDF text extraction quality.
+3. Identify relevant financial statement and MD&A pages.
+4. Extract accounting and REIT-specific financial metrics.
+5. Recover records requiring manual review.
+6. Validate overlapping financial figures across reporting years.
+7. Standardize financial metric names and measurement units.
+8. Calculate derived financial metrics.
+9. Extract individual quarterly financial results.
+10. Perform structural and accounting consistency checks.
+11. Export validated financial datasets.
+
+### Output Files
+
+- `data/processed/peer_annual_financials_cleaned.csv`
+- `data/processed/peer_quarterly_financials_cleaned.csv`
+
+### Validation Summary
+
+| Validation Item | Annual Data | Quarterly Data |
+|---|---:|---:|
+| Total Records | 177 | 105 |
+| Total Columns | 14 | 14 |
+| Duplicate Primary Keys | 0 | 0 |
+| Missing Required Values | 0 | 0 |
+| Unit Conflicts | 0 | 0 |
+| Balance Sheet Validation | Passed | Passed |
+| Net Rental Income Validation | Passed | Passed |
+| Export Validation | Passed | Passed |
+
+### Data Quality and Limitations
+
+- Source filenames, PDF page numbers, original values, and extraction methods are preserved for data traceability.
+- Missing metric coverage is retained rather than replaced with unsupported values.
+- Quarterly income statement figures represent individual quarters rather than cumulative year-to-date periods.
+- Company-specific accounting classifications and non-GAAP measurement differences are retained.
+- Structural validation does not guarantee complete comparability across companies.
+- Local file paths may require adjustment before running the notebook in another environment.
+
