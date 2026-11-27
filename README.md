@@ -30,13 +30,17 @@ analysis of SmartCentres REIT and its industry peers.
 - `notebooks/`: Python data acquisition and cleaning notebooks.
 
 ## Current Progress
-
 - Market data acquisition and cleaning completed.
 - Macroeconomic data acquisition and cleaning completed.
 - SmartCentres annual financial data for 2023–2025 processed.
 - SmartCentres quarterly financial data for Q1–Q3 2026 processed.
-- Peer financial data processing pending.
-- Database integration and SQL analysis pending.
+- RioCan and Choice Properties annual financial data for 2023–2025 processed.
+- RioCan and Choice Properties quarterly financial data for Q1–Q3 2026 processed.
+- Financial data structural validation completed.
+- Data integration pending.
+- Relational database design and MySQL implementation pending.
+- SQL-based financial and investment analysis pending.
+
 
 ## Tools and Technologies
 

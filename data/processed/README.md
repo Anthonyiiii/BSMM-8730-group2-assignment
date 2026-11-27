@@ -129,3 +129,52 @@ Cross-report comparisons and accounting consistency
 checks were performed where applicable. Structural
 validation does not replace verification against the
 original financial statements.
+
+
+## Peer Annual Financial Data
+
+- File: `peer_annual_financials_cleaned.csv`
+- Companies: RioCan REIT and Choice Properties REIT
+- Period: 2023–2025
+- Total records: 177
+- Total columns: 14
+- Duplicate primary keys: 0
+- Missing required values: 0
+- Unit conflicts: 0
+- Balance sheet validation: Passed
+- Net rental income validation: Passed
+- Export validation: Passed
+
+## Peer Quarterly Financial Data
+
+- File: `peer_quarterly_financials_cleaned.csv`
+- Companies: RioCan REIT and Choice Properties REIT
+- Period: 2026 Q1–Q3
+- Total records: 105
+- Total columns: 14
+- Original extracted records: 78
+- Calculated records: 27
+- Duplicate primary keys: 0
+- Missing required values: 0
+- Unit conflicts: 0
+- Balance sheet validation: Passed
+- Net rental income validation: Passed
+- Export validation: Passed
+
+## Peer Financial Data Standardization
+
+- Standardized financial metric names and measurement units.
+- Converted monetary amounts from CAD thousands to CAD millions.
+- Calculated total debt, net rental income, debt-to-assets ratios, and net rental income margins.
+- Validated overlapping annual financial figures across reporting years.
+- Preserved source filenames, PDF page numbers, original values, and extraction methods.
+
+Composite primary key:
+
+- `ticker`
+- `period_end`
+- `period_type`
+- `metric`
+
+Missing metric coverage is retained rather than filled with unsupported values. Company-specific accounting classifications and non-GAAP measurement differences should be considered during comparative analysis.
+
