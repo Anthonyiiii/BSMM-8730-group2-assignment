@@ -24,13 +24,16 @@ analysis of SmartCentres REIT and its industry peers.
 - Statistics Canada
 
 ## Repository Structure
-
 - `data/raw/`: Original source datasets and reports.
 - `data/processed/`: Cleaned and validated datasets.
 - `data/integrated/database_ready/`: Six relational datasets for MySQL.
 - `data/integrated/analysis/`: Integrated analytical datasets.
 - `data/integrated/validation/`: Data quality validation reports.
 - `notebooks/`: Python acquisition, cleaning, validation, and integration notebooks.
+- `database/`: MySQL schema, data import scripts, validation scripts, ERD, and database documentation.
+
+
+
 
 
 ## Current Progress
@@ -40,9 +43,25 @@ analysis of SmartCentres REIT and its industry peers.
 - Financial metric harmonization completed.
 - Financial, market, and macroeconomic data integration completed.
 - Six database-ready datasets prepared and validated.
-- Database design and ERD development pending.
-- MySQL implementation and data import pending.
+- Database design and ERD development completed.
+- MySQL implementation and data import completed.
+- Database structural and integrity validation completed.
 - SQL-based investment analysis pending.
+
+### Database Design and Implementation
+
+- Designed and implemented a relational MySQL database.
+- Created six database tables containing 5,300 records.
+- Defined primary keys and foreign key constraints.
+- Created an Entity Relationship Diagram (ERD).
+- Imported financial, market, and macroeconomic datasets.
+- Validated record counts, referential integrity, temporal alignment, and market price consistency.
+- Created reusable SQL schema, import, and validation scripts.
+- Documented database design and implementation procedures.
+
+For more details, see [Database Documentation](database/README.md).
+
+Full CSV-to-database value reconciliation and fresh database reproduction testing remain pending.
 
 
 ## Data Integration Results
@@ -85,8 +104,20 @@ for MySQL implementation.
   month rather than actual publication date.
 - Retrospective datasets should not be used directly
   for historical trading simulations.
-- MySQL implementation and database constraints
-  require further validation.
+- Full CSV-to-database value reconciliation and fresh
+  database reproduction testing remain pending.
+  
+## Next Steps
+
+- Complete CSV-to-database value reconciliation.
+- Test database reproducibility in a fresh environment.
+- Conduct SQL-based financial performance analysis.
+- Compare SmartCentres with RioCan and Choice Properties.
+- Analyze market performance and investment risk.
+- Evaluate macroeconomic relationships with REIT performance.
+- Develop data visualizations and investment insights.
+- Prepare the final report and presentation.
+
 
 
 ## Tools and Technologies
