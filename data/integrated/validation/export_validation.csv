@@ -1,0 +1,7 @@
+File,Rows,Columns,Export_Status
+securities.csv,4,5,PASS
+metric_definitions.csv,62,4,PASS
+financial_metrics.csv,452,12,PASS
+market_prices.csv,3764,11,PASS
+daily_interest_rates.csv,973,10,PASS
+monthly_macro.csv,45,16,PASS

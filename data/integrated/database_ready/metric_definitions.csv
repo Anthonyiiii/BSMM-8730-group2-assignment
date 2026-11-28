@@ -1,0 +1,63 @@
+metric,metric_group,unit,comparability_note
+adjusted_debt_to_adjusted_ebitda,adjusted_debt_to_adjusted_ebitda,Times,Original definition retained; comparability not independently verified.
+adjusted_debt_to_total_assets,adjusted_debt_to_total_assets,Percent,Original definition retained; comparability not independently verified.
+affo,affo,CAD million,Non-IFRS measure; company definitions may differ.
+affo_payout_ratio,affo_payout_ratio,Percent,Payout ratio depends on the company-specific AFFO definition.
+affo_per_unit_diluted,affo_per_unit_diluted,CAD/unit,AFFO definitions and diluted unit calculations may differ.
+affo_with_adjustments,affo_with_adjustments,CAD million,Original definition retained; comparability not independently verified.
+bank_loans,bank_loans,CAD million,Original definition retained; comparability not independently verified.
+book_debt_to_assets_ratio,book_debt_to_assets_ratio,Percent,Comparability depends on the definition of total debt.
+cash_and_cash_equivalents,cash_and_cash_equivalents,CAD million,Original definition retained; comparability not independently verified.
+credit_facility,credit_facility,CAD million,Original definition retained; comparability not independently verified.
+current_debt,current_debt,CAD million,Original definition retained; comparability not independently verified.
+debentures_payable,debentures_payable,CAD million,Original definition retained; comparability not independently verified.
+debt_to_aggregate_assets,debt_to_aggregate_assets,Percent,Original definition retained; comparability not independently verified.
+distributions_per_unit,distributions_per_unit,CAD/unit,Original definition retained; comparability not independently verified.
+exchangeable_units_liability,exchangeable_units_liability,CAD million,Original definition retained; comparability not independently verified.
+ffo,ffo,CAD million,Non-IFRS measure; company definitions may differ.
+ffo_payout_ratio,ffo_payout_ratio,Percent,Payout ratio depends on the company-specific FFO definition.
+ffo_per_unit_diluted,ffo_per_unit_diluted,CAD/unit,FFO definitions and diluted unit calculations may differ.
+ffo_with_adjustments,ffo_with_adjustments,CAD million,Original definition retained; comparability not independently verified.
+financing_cash_flow,financing_cash_flow,CAD million,Original definition retained; comparability not independently verified.
+gross_leasable_area,gross_leasable_area,sq.ft.,Original definition retained; comparability not independently verified.
+interest_costs_net,interest_costs_net,CAD million,Original definition retained; comparability not independently verified.
+interest_coverage_ratio,interest_coverage_ratio,Times,Original definition retained; comparability not independently verified.
+interest_expense,interest_expense,CAD million,Original definition retained; comparability not independently verified.
+investing_cash_flow,investing_cash_flow,CAD million,Original definition retained; comparability not independently verified.
+investment_properties,investment_properties,CAD million,Original definition retained; comparability not independently verified.
+long_term_debt,long_term_debt,CAD million,Original definition retained; comparability not independently verified.
+mortgages_held_for_sale,mortgages_held_for_sale,CAD million,Original definition retained; comparability not independently verified.
+mortgages_payable,mortgages_payable,CAD million,Original definition retained; comparability not independently verified.
+nav,nav,CAD million,Original definition retained; comparability not independently verified.
+nav_per_unit_diluted,nav_per_unit_diluted,CAD/unit,Original definition retained; comparability not independently verified.
+net_financing_charges,net_financing_charges,CAD million,Original definition retained; comparability not independently verified.
+net_income,net_income,CAD million,Original definition retained; comparability not independently verified.
+net_rental_income,net_rental_income,CAD million,Rental income definitions may differ across companies.
+net_rental_income_and_other,net_rental_income,CAD million,Rental income definitions may differ across companies.
+net_rental_income_margin,net_rental_income_margin,Percent,Revenue and operating cost definitions may differ.
+noi_accounting_basis,noi_accounting_basis,CAD million,Accounting-basis NOI; retain separately.
+noi_proportionate,noi_proportionate,CAD million,Proportionate-basis NOI; retain separately.
+non_controlling_interests,non_controlling_interests,CAD million,Original definition retained; comparability not independently verified.
+non_current_debt,non_current_debt,CAD million,Original definition retained; comparability not independently verified.
+non_recoverable_operating_costs,non_recoverable_operating_costs,CAD million,Original definition retained; comparability not independently verified.
+occupancy_rate_committed,occupancy_rate_committed,Percent,Committed occupancy; retain separately.
+occupancy_rate_in_place,occupancy_rate_in_place,Percent,In-place occupancy; retain separately.
+occupancy_rate_reported,occupancy_rate_reported,Percent,Company-reported occupancy; definition requires review.
+operating_cash_flow,operating_cash_flow,CAD million,Original definition retained; comparability not independently verified.
+property_operating_costs,property_operating_costs,CAD million,Original definition retained; comparability not independently verified.
+recoverable_operating_costs,recoverable_operating_costs,CAD million,Original definition retained; comparability not independently verified.
+renewal_rent_growth_excluding_anchors,renewal_rent_growth_excluding_anchors,Percent,Original definition retained; comparability not independently verified.
+renewal_rent_growth_including_anchors,renewal_rent_growth_including_anchors,Percent,Original definition retained; comparability not independently verified.
+rental_revenue,rental_revenue,CAD million,Revenue scope may differ across companies.
+rental_revenue_and_other,rental_revenue,CAD million,Revenue scope may differ across companies.
+same_property_noi_growth,same_property_noi_growth,Percent,Same-property portfolio and NOI definitions may differ.
+spnoi,spnoi,CAD million,Original definition retained; comparability not independently verified.
+spnoi_growth_excluding_anchors,spnoi_growth_excluding_anchors,Percent,Original definition retained; comparability not independently verified.
+tenant_renewal_rate,tenant_renewal_rate,Percent,Original definition retained; comparability not independently verified.
+total_assets,total_assets,CAD million,Original definition retained; comparability not independently verified.
+total_debt,total_debt,CAD million,Debt components and liability classifications may differ.
+total_distributions_declared,total_distributions_declared,CAD million,Original definition retained; comparability not independently verified.
+total_equity,total_equity,CAD million,Original definition retained; comparability not independently verified.
+total_liabilities,total_liabilities,CAD million,Original definition retained; comparability not independently verified.
+trust_unit_equity,trust_unit_equity,CAD million,Original definition retained; comparability not independently verified.
+weighted_average_interest_rate,weighted_average_interest_rate,Percent,Original definition retained; comparability not independently verified.

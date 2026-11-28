@@ -1,0 +1,7 @@
+Table,Expected,Actual,Status
+securities,4,4,PASS
+metric_definitions,62,62,PASS
+financial_metrics,452,452,PASS
+market_prices,3764,3764,PASS
+daily_interest_rates,973,973,PASS
+monthly_macro,45,45,PASS

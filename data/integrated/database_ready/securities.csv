@@ -1,0 +1,5 @@
+ticker,security_name,currency,security_type,analysis_role
+CHP-UN.TO,Choice Properties,CAD,REIT,Peer
+REI-UN.TO,RioCan,CAD,REIT,Peer
+SRU-UN.TO,SmartCentres,CAD,REIT,Target
+XRE.TO,REIT Benchmark,CAD,ETF,Benchmark

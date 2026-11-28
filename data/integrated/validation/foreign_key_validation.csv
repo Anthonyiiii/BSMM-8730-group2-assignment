@@ -1,0 +1,4 @@
+Relationship,Status
+Financial Metrics -> Securities,PASS
+Market Prices -> Securities,PASS
+Financial Metrics -> Metric Definitions,PASS
