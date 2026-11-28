@@ -70,12 +70,13 @@ and cleaned datasets are stored in `data/processed/`,
 with source reports maintained in the relevant data branches.
 
 ## Next Steps
-- Data integration across SmartCentres, RioCan, and Choice Properties.
-- Financial metric harmonization across companies.
-- Integration of financial, market, and macroeconomic datasets.
-- Relational database design and ER diagram development.
-- MySQL database implementation and data import.
+
+- Relational database design and normalization.
+- Entity-Relationship Diagram (ERD) development.
+- MySQL database implementation.
+- Database import and integrity validation.
 - SQL-based financial and investment analysis.
+- Data visualization and reporting.
 
 
 ## Peer Financial Data Cleaning
@@ -135,4 +136,64 @@ Extract, clean, standardize, and validate financial and operating data for RioCa
 - Company-specific accounting classifications and non-GAAP measurement differences are retained.
 - Structural validation does not guarantee complete comparability across companies.
 - Local file paths may require adjustment before running the notebook in another environment.
+
+  
+## Data Integration and Database Preparation
+
+### Notebook
+
+`data_integration.ipynb`
+
+### Objective
+
+Integrate cleaned financial, market, and macroeconomic
+datasets and prepare relational datasets for MySQL
+database implementation.
+
+### Main Procedures
+
+1. Load nine cleaned CSV datasets.
+2. Validate dataset schemas and primary keys.
+3. Consolidate financial data across three REITs.
+4. Harmonize financial metric groups.
+5. Integrate daily market data and interest rates.
+6. Align monthly CPI and retail sales indicators.
+7. Prepare six relational database tables.
+8. Validate primary keys and foreign key relationships.
+9. Validate temporal alignment and record preservation.
+10. Export database-ready datasets and validation reports.
+
+### Integration Results
+
+| Validation Item | Result |
+|---|---:|
+| Integrated Financial Records | 452 |
+| Original Financial Metrics | 62 |
+| Harmonized Metric Groups | 60 |
+| Common Annual Metric Groups | 21 |
+| Common Quarterly Metric Groups | 9 |
+| Integrated Market Records | 3764 |
+| Database Tables | 6 |
+| Total Database Records | 5300 |
+| Duplicate Primary Keys | 0 |
+| Missing Primary Keys | 0 |
+| Foreign Key Checks | 3/3 Passed |
+| CSV Export Validation | Passed |
+
+### Output Directories
+
+- `data/integrated/database_ready/`
+- `data/integrated/analysis/`
+- `data/integrated/validation/`
+
+### Limitations
+
+- Financial metric groups do not guarantee accounting
+  equivalence across companies.
+- Retrospective market-macro data uses reference-month
+  alignment rather than actual publication dates.
+- Local file paths may require adjustment for reproducibility.
+- MySQL implementation and database constraints have not
+  yet been tested.
+
 
