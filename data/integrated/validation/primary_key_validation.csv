@@ -1,0 +1,7 @@
+Table,Records,Columns,Duplicate_PK,Missing_PK,Status
+securities,4,5,0,0,PASS
+metric_definitions,62,4,0,0,PASS
+financial_metrics,452,12,0,0,PASS
+market_prices,3764,11,0,0,PASS
+daily_interest_rates,973,10,0,0,PASS
+monthly_macro,45,16,0,0,PASS
